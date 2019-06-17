@@ -2,7 +2,7 @@ package json
 
 import (
 	"encoding/json"
-	"github.com/segmentio/terraform-docs/internal/pkg/doc"
+	"github.com/moatra/terraform-docs/internal/pkg/doc"
 )
 
 const (

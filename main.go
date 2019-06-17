@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	doc2 "github.com/segmentio/terraform-docs/internal/pkg/doc"
+	doc2 "github.com/moatra/terraform-docs/internal/pkg/doc"
 	"log"
 
 	"github.com/docopt/docopt.go"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/segmentio/terraform-docs/internal/pkg/print/json"
-	markdown_document "github.com/segmentio/terraform-docs/internal/pkg/print/markdown/document"
-	markdown_table "github.com/segmentio/terraform-docs/internal/pkg/print/markdown/table"
-	"github.com/segmentio/terraform-docs/internal/pkg/print/pretty"
-	"github.com/segmentio/terraform-docs/internal/pkg/settings"
+	"github.com/moatra/terraform-docs/internal/pkg/print/json"
+	markdown_document "github.com/moatra/terraform-docs/internal/pkg/print/markdown/document"
+	markdown_table "github.com/moatra/terraform-docs/internal/pkg/print/markdown/table"
+	"github.com/moatra/terraform-docs/internal/pkg/print/pretty"
+	"github.com/moatra/terraform-docs/internal/pkg/settings"
 )
 
 var version = "dev"

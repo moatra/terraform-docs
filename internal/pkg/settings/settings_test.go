@@ -3,7 +3,7 @@ package settings_test
 import (
 	"testing"
 
-	"github.com/segmentio/terraform-docs/internal/pkg/settings"
+	"github.com/moatra/terraform-docs/internal/pkg/settings"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/segmentio/terraform-docs/internal/pkg/doc"
-	"github.com/segmentio/terraform-docs/internal/pkg/print/markdown"
-	"github.com/segmentio/terraform-docs/internal/pkg/settings"
+	"github.com/moatra/terraform-docs/internal/pkg/doc"
+	"github.com/moatra/terraform-docs/internal/pkg/print/markdown"
+	"github.com/moatra/terraform-docs/internal/pkg/settings"
 )
 
 // Print prints a document as Markdown tables.

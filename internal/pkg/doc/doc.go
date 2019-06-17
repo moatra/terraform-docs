@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/segmentio/terraform-docs/internal/pkg/settings"
+	"github.com/moatra/terraform-docs/internal/pkg/settings"
 	"sort"
 	"strings"
 )

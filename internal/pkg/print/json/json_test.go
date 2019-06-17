@@ -4,10 +4,10 @@ import (
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
 	"testing"
 
-	"github.com/segmentio/terraform-docs/internal/pkg/doc"
-	"github.com/segmentio/terraform-docs/internal/pkg/print"
-	"github.com/segmentio/terraform-docs/internal/pkg/print/json"
-	"github.com/segmentio/terraform-docs/internal/pkg/settings"
+	"github.com/moatra/terraform-docs/internal/pkg/doc"
+	"github.com/moatra/terraform-docs/internal/pkg/print"
+	"github.com/moatra/terraform-docs/internal/pkg/print/json"
+	"github.com/moatra/terraform-docs/internal/pkg/settings"
 	"github.com/stretchr/testify/assert"
 )
 
